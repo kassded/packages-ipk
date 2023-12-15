@@ -45,10 +45,10 @@ jobs:
         svn export https://github.com/haiibo/packages/trunk/luci-app-onliner ./luci-app-onliner      
         svn export https://github.com/kenzok8/openwrt-packages/trunk/luci-app-store ./luci-app-store  
         
-        svn export https://github.com/gngpp/thunder/trunk/openwrt/luci-app-thunder ./op-thunder/luci-app-thunder
-        svn export https://github.com/gngpp/thunder/trunk/openwrt/thunder ./op-thunder/thunder
-        svn export https://github.com/kenzok8/openwrt-packages/trunk/adguardhome ./op-adguardhome/adguardhome
-        svn export https://github.com/kenzok8/openwrt-packages/trunk/luci-app-adguardhome ./op-adguardhome/luci-app-adguardhome
+        #svn export https://github.com/gngpp/thunder/trunk/openwrt/luci-app-thunder ./op-thunder/luci-app-thunder
+        #svn export https://github.com/gngpp/thunder/trunk/openwrt/thunder ./op-thunder/thunder
+        #svn export https://github.com/kenzok8/openwrt-packages/trunk/adguardhome ./op-adguardhome/adguardhome
+        #svn export https://github.com/kenzok8/openwrt-packages/trunk/luci-app-adguardhome ./op-adguardhome/luci-app-adguardhome
         svn export https://github.com/messense/aliyundrive-webdav/trunk/openwrt/aliyundrive-webdav ./op-aliyundrive/aliyundrive-webdav
         svn export https://github.com/messense/aliyundrive-webdav/trunk/openwrt/luci-app-aliyundrive-webdav ./op-aliyundrive/luci-app-aliyundrive-webdav
         
