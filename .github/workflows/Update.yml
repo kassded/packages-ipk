@@ -36,7 +36,7 @@ jobs:
       run: |
 
         rm -rf ./luci-app-onliner    
-        rm -rf ./op-xunlei/*
+        rm -rf ./op-thunder/*
 
 
         svn export https://github.com/haiibo/packages/trunk/luci-app-onliner ./luci-app-onliner              
