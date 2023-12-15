@@ -40,8 +40,8 @@ jobs:
 
 
         svn export https://github.com/haiibo/packages/trunk/luci-app-onliner ./luci-app-onliner              
-        svn export https://github.com/gngpp/thunder/trunk/openwrt/luci-app-xunlei ./op-xunlei/luci-app-xunlei
-        svn export https://github.com/gngpp/thunder/trunk/openwrt/xunlei ./op-xunlei/xunlei
+        svn export https://github.com/gngpp/thunder/trunk/openwrt/luci-app-thunder ./op-thunder/luci-app-thunder
+        svn export https://github.com/gngpp/thunder/trunk/openwrt/thunder ./op-thunder/thunder
         
         
     - name: Apply
