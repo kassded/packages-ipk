@@ -4,4 +4,4 @@
 
 https://github.com/xiangfeidexiaohuo/extra-ipk
 
-https://github.com/shidahuilang/openwrt-package
+https://github.com/kenzok8/openwrt-packages
