@@ -36,7 +36,6 @@ jobs:
       run: |
 
         rm -rf ./luci-app-onliner  
-        #rm -rf ./luci-app-store
         rm -rf ./op-thunder/*
         rm -rf ./op-adguardhome/*
         rm -rf ./aliyundrive-webdav/*
