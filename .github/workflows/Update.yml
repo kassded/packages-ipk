@@ -45,6 +45,7 @@ jobs:
 
         svn export https://github.com/haiibo/packages/trunk/luci-app-onliner ./luci-app-onliner      
         #svn export https://github.com/kenzok8/openwrt-packages/trunk/luci-app-store ./luci-app-store  
+        svn export https://github.com/linkease/openwrt-app-actions/trunk/applications/luci-app-ap-modem ./luci-app-ap-modem      
         
         #svn export https://github.com/gngpp/thunder/trunk/openwrt/luci-app-thunder ./op-thunder/luci-app-thunder
         #svn export https://github.com/gngpp/thunder/trunk/openwrt/thunder ./op-thunder/thunder
