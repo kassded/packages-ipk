@@ -36,7 +36,7 @@ jobs:
       run: |
 
         rm -rf ./luci-app-onliner  
-        rm -rf ./luci-app-store
+        #rm -rf ./luci-app-store
         rm -rf ./op-thunder/*
         rm -rf ./op-adguardhome/*
         rm -rf ./aliyundrive-webdav/*
@@ -44,7 +44,7 @@ jobs:
 
 
         svn export https://github.com/haiibo/packages/trunk/luci-app-onliner ./luci-app-onliner      
-        svn export https://github.com/kenzok8/openwrt-packages/trunk/luci-app-store ./luci-app-store  
+        #svn export https://github.com/kenzok8/openwrt-packages/trunk/luci-app-store ./luci-app-store  
         
         #svn export https://github.com/gngpp/thunder/trunk/openwrt/luci-app-thunder ./op-thunder/luci-app-thunder
         #svn export https://github.com/gngpp/thunder/trunk/openwrt/thunder ./op-thunder/thunder
