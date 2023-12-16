@@ -36,10 +36,8 @@ jobs:
       run: |
 
         rm -rf ./luci-app-onliner  
-        rm -rf ./op-thunder/*
-        rm -rf ./op-adguardhome/*
-        rm -rf ./aliyundrive-webdav/*
-        rm -rf ./luci-app-aliyundrive-webdav/*
+        rm -rf ./aliyundrive-webdav
+        rm -rf ./luci-app-aliyundrive-webdav
 
 
         svn export https://github.com/haiibo/packages/trunk/luci-app-onliner ./luci-app-onliner      
